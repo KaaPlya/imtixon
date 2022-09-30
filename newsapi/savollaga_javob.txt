@@ -1,0 +1,35 @@
+2 savol
+
+SQL (Structured Query Language) yani tuzilmali so`rov tili xisoblanadi 
+SQLdan dasturchilar juda xam keng foydalanishdadi SQL bu ma`lumotlar 
+bazasi bilan ishlash uchun standart til xisoblanadi
+SQL bir nechta buyruqlardan iborat: ma'lumotlarni ushlaydigan Select; 
+Ma'lumotlar bazasiga ma'lumotlarni qo'shadigan Insert; 
+Ma'lumotni o'zgartiradigan yangilanish; va Delete, bu esa ma'lumotlarni o'chiradi. 
+Ma'lumotlar bazalarini yaratish, o'zgartirish va boshqarish uchun boshqa buyruqlar mavjud.
+
+
+1 savol 
+
+Pythonning o'ziga xos xususiyatlaridan biri, nomsiz vaqtinchalik funksiyalar yaratish imkoniyati. 
+Bunday funksiyalarni yaratishda Lambda operatoridan foydalaniladi
+Lambda funksiyalari istalgan miqdordagi argumentlarga ega bo'lishi mumkin, 
+ammo funksiyada faqat bitta ifoda mavjud bo'ladi yani Ifoda bajariladi va qaytarilad
+Bu funksiyalar biror ifodani tezda hisoblab olishda qulay
+Lambda funksiyalari Nomsiz funksiya xam deb ataladibu finksiyalarning asl mohiyati boshqa funskiyalar bilan birga ishlaganda ko'rinadi.
+misol uchun
+
+import math
+uzunlik = lambda pi, r : 2*pi*r
+print(uzunlik(math.pi,10))
+
+
+3 savol
+
+
+Web Scraping - bu berilgan parametrlar bo'yicha veb-sahifalardan ma'lumotlarni avtomatik ravishda olish.
+
+Maxsus dastur saytni skanerlaydi va uning ma'lumotlarini nusxalaydi: matnlar, tasvirlar, audio fayllar va boshqalar. 
+Keyin ularni tartibga soladi va ularni, masalan, CSV formatidagi jadvalda saqlaydi. 
+Shunday qilib, siz onlayn-do'kon, kutubxona yoki boshqa ma'lumotlar bazasining butun katalogini yuklashingiz mumkin
+Web Scraping muayyan turdagi ma'lumotlarni to'plash kerak bo'lgan holatlar ishlatiladi
