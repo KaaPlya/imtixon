@@ -1,3 +1,5 @@
+1- variant
+
 2 savol
 
 SQL (Structured Query Language) yani tuzilmali so`rov tili xisoblanadi 
